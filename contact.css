@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    overflow: hidden;
+        
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+    left: -100px;
+    top: -125px;
+}
+a{
+ text-decoration: none;color: black;
+}
+.logo{
+    margin: 50px;
+    top: -20px;
+}
+/* section */
+.contactus{
+    right: -10px;
+    height: 550px;
+    border: 3px solid black;
+    width: 1500px;
+}
+
+
+h1{
+    left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 30px;
+    
+}
+.divs{
+    height: 40px;
+}
+h2{
+    
+    left: 10px;
+    height: 50px;
+}
+h3{
+
+    left: 10px;
+    height: 50px;
+    font-size: 30px;
+    color: green;
+}
+.span1{
+
+
+    font-weight: 300px;
+    font-size: 25px;
+    height: 100px;
+    left: 10px;
+}
+.div1{
+    height: 10px;
+}
+.div2{
+    height: 10px;
+}
+.address1{
+    
+    font-size: 18px;
+ font-weight: 200;
+ color: green;
+ height: 90px;
+ left: 10px;
+}
+.span2{
+    font-weight: 300px;
+    font-size: 25px;
+    left: 10px;
+    
+}
+.address2{
+    font-size: 18px;
+    font-weight: 200;
+    color: green;
+    left: 10px;
+
+}
+.div3{
+    height: 40px;
+}
+.spn3{
+    font-weight: 600;
+    color: rgb(67, 83, 227);
+  
+}
+.time{
+    font-size: 20px;
+    left: 10px;
+
+}
+.div4{
+    height: 20px;
+}
+.email{
+    font-size: 20px;
+    left: 10px;
+    color: blue; 
+       
+}
+.qw{
+    color: green;
+}
+.name{
+    left: 1100px;
+  top: -100px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .contact-form form {
+      width: 100%;
+    }
+  }
+  form{
+    position: relative;
+    top: 20px;
+  }
+  .contactus{
+    background-color: rgb(208, 232, 208);
+  }

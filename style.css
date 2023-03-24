@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+    left: -100px;
+    top: -125px;
+}
+a{
+ text-decoration: none;color: black;
+}
+.logo{
+    margin: 50px;
+    top: -20px;
+}
+section{
+    align-items: center;
+    justify-content: center;    
+}
+.green{
+    
+    display: inline;
+    position: fixed;
+    top: 190px;
+    right: -25px;
+    transform: scale(0.9);
+}
+.yellow{
+    
+    display: inline;
+    position: fixed;
+    top: 420px;
+    right: -39px;
+    transform: scale(0.9);
+}
+.doctor{
+    display: inline;
+    position: fixed;
+    top: 70px;
+    right: 0;
+    transform: scale(1.0);
+}
+.img1{
+    right: -60px;
+}
+h1{
+    right: -60px;
+    font-size: 100px;
+}
+p{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    right: 430px;
+}
+.img2{
+    right: -800px;
+}
+.app{
+    padding: 4px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    border:  1px solid  green;
+    border-radius: 6px;
+    right: -65px;
+    top: 15px;
+}
+.sapn{
+    right: -820px;
+    top: 5px;
+}
+a:hover{
+    color: violet;
+}
+button:hover{
+    color: green;
+    background-color: #fff;
+}
